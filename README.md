@@ -1,4 +1,4 @@
-# 🏜️ Mélange by FNS
+# Mélange by FNS
 
 > **A modular Wabbajack mod list and modding framework for Dune: Awakening**
 
