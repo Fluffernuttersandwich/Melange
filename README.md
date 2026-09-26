@@ -6,7 +6,7 @@
 
 **Dune: Awakening modding is still in its infancy.**
 
-Mélange currently exists more as **scaffolding for a future modding ecosystem** than as a traditional overhaul mod list.
+Mélange currently exists more as **scaffolding for a future modding ecosystem** than as a traditional overhaul modlist.
 
 There simply aren't enough mature mods yet to build the kind of large, comprehensive overhaul that established modding communities can support. That is expected to change over time.
 
@@ -29,6 +29,7 @@ One of the project's goals is also to encourage mod authors and users to make **
 - [Installation](#installation)
 - [Updating Mélange](#updating-mélange)
 - [Included Mods & Frameworks](#included-mods--frameworks)
+- [Documentation](#documentation)
 - [Support & Community](#support--community)
 - [For Mod Authors](#for-mod-authors)
 - [Credits & Acknowledgements](#credits--acknowledgements)
@@ -134,7 +135,7 @@ Early Mélange releases focus heavily on:
 
 **Infrastructure, compatibility, organization, documentation, and proving that a robust modding workflow for Dune: Awakening can work.**
 
-The mod list itself will expand alongside the community and the available catalog of compatible mods.
+The modlist itself will expand alongside the community and the available catalog of compatible mods.
 
 ### What Mélange Can Become
 
@@ -188,6 +189,8 @@ Older versions of Wabbajack may not contain the Dune: Awakening game support req
 Mod Organizer 2 is already included as part of the Mélange installation created by Wabbajack.
 
 Using a separate MO2 installation is unnecessary and may result in an incorrectly configured installation.
+
+Want to understand why Mélange is built around Mod Organizer 2? See **[Why Mélange Uses Mod Organizer 2](Why_Melange_Uses_MO2.md)**.
 
 ### Single-Player Modding
 
@@ -249,13 +252,17 @@ Steam should still be running in the background. Mélange's launch entry starts 
 
 ### Detailed Installation Guide
 
-A complete step-by-step installation guide, including screenshots and troubleshooting information, will be provided in the Mélange **Installation Guide**.
+For complete step-by-step instructions, see the **[Mélange Installation Guide](InstallationGuide.md)**.
+
+The guide covers installation, recommended folder locations, Steam update settings, launching Mélange through Mod Organizer 2, and basic installation verification.
 
 ---
 
 ## Updating Mélange
 
 Mélange will evolve alongside Dune: Awakening and its developing modding community. Updates may add new mods, update existing components, change configuration, or adjust the framework in response to game updates.
+
+For guidance on adding mods, creating personal profiles, organizing custom content, and maintaining the distinction between **Mélange** and **Your Mélange**, see **[Customizing Mélange](CUSTOMIZING_MELANGE.md)**.
 
 ### Before Updating
 
@@ -271,7 +278,7 @@ Mélange updates will be distributed through **Wabbajack**.
 
 Always use the **latest available version of Wabbajack** and read the release notes for the Mélange version you are installing before beginning an update.
 
-Detailed update instructions will be documented and tested before Mélange's first public release.
+For complete update instructions, see **[How to Update Mélange](How_to_Update_Melange.md)**.
 
 ### Your Own Mods and Customizations
 
@@ -285,7 +292,9 @@ Before making extensive personal changes, consider creating your own **Mod Organ
 
 Separate profiles make it easier to preserve the official Mélange configuration for testing and troubleshooting while maintaining your own customized setup.
 
-Specific recommendations for protecting user-added mods and customizations during Mélange updates will be documented once the update process has been fully tested.
+Mélange uses the `[NoDelete]` naming convention to help protect user-added mods and personal MO2 profiles from Wabbajack's normal cleanup during updates.
+
+For details on protecting your customizations, see **[How to Update Mélange](How_to_Update_Melange.md)**.
 
 ### When a Clean Installation Is Required
 
@@ -353,6 +362,19 @@ A complete list of the mods, frameworks, utilities, and optional components incl
 
 ---
 
+## Documentation
+
+More detailed information about installing, customizing, updating, troubleshooting, and developing for Mélange is available in the project guides:
+
+- **[Installation Guide](InstallationGuide.md)** — Installing Mélange and launching it for the first time.
+- **[Customizing Mélange](CUSTOMIZING_MELANGE.md)** — Adding your own mods, profiles, and other customizations.
+- **[How to Update Mélange](How_to_Update_Melange.md)** — Updating through Wabbajack while protecting personal additions.
+- **[Troubleshooting Guide](TROUBLESHOOTING.md)** — Diagnosing installation, launch, framework, and mod problems.
+- **[Why Mélange Uses Mod Organizer 2](Why_Melange_Uses_MO2.md)** — The reasoning behind Mélange's MO2, Wabbajack, and Nexus Mods workflow.
+- **[Mod Author Guide](Mod_Author_Guide.md)** — Guidance for authors building and packaging Dune: Awakening mods.
+
+---
+
 ## Support & Community
 
 Mélange support, development discussion, and general Dune: Awakening modding discussion are hosted in the **Smörgåsbord Discord community**.
@@ -411,15 +433,15 @@ Please use the Discord for general installation help and troubleshooting rather 
 
 ### Troubleshooting Documentation
 
-A dedicated troubleshooting guide will be maintained as recurring problems, solutions, and diagnostic procedures are identified.
+If you encounter installation, launch, framework, mod, or update problems, start with the **[Mélange Troubleshooting Guide](TROUBLESHOOTING.md)**.
+
+The guide is designed to help isolate which part of the Mélange environment is failing before making unnecessary changes or reinstalling components.
 
 ---
 
 ## For Mod Authors
 
-Mélange is intended to support Dune: Awakening mod authors as much as it supports mod users.
-
-The Dune: Awakening modding ecosystem is still young, which gives us an opportunity to establish good practices early rather than trying to fix years of inconsistent packaging and installation methods later.
+For practical guidance on WPS Dune tooling, packaging, dependencies, testing, and publishing mods for the developing Dune: Awakening ecosystem, see the **[Mélange Mod Author Guide](Mod_Author_Guide.md)**.
 
 ### Nexus Mods
 
@@ -571,7 +593,7 @@ Don't worry, we'll leave a little desert for the Maker.
 
 ---
 
-## ☕ Support the Project
+## Support the Project
 
 Mélange is and will remain free.
 

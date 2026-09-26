@@ -187,14 +187,18 @@ In Mod Organizer 2:
 For example:
 
 ```text
-Mélange - Custom
+[NoDelete] My Mélange
 ```
 
 or:
 
 ```text
-My Mélange
+[NoDelete] My Mélange
 ```
+
+The `[NoDelete]` prefix is important. Wabbajack recognizes this convention and will preserve profiles using it during its normal cleanup process.
+
+This does **not** guarantee that the profile or the mods enabled within it will remain compatible with future Mélange releases. It protects the profile from normal cleanup; it does not protect it from compatibility problems.
 
 Use your custom profile when experimenting.
 
@@ -214,6 +218,18 @@ If the answer is **no**, your customization has already narrowed the investigati
 > A separate MO2 profile is **not a complete backup of your added mod files**.
 >
 > Profiles help separate configurations. They should not be treated as protection against every change that a future Mélange update might make.
+
+### A Profile Is Not a Backup
+
+Creating a separate `[NoDelete]` profile protects your personal MO2 configuration and helps keep it separate from the default Mélange profile, but it should not be treated as a complete backup.
+
+MO2 profiles primarily preserve things such as enabled mods, load order, and profile-specific configuration. Your user-added mods and any irreplaceable files should still be backed up separately if losing them would be difficult to recover.
+
+The safest approach is:
+
+- Use `[NoDelete]` for personal profiles and user-added mods.
+- Keep important original mod archives when practical.
+- Back up irreplaceable personal work, configuration, or custom-created files separately.
 
 ---
 
@@ -282,6 +298,23 @@ After installation:
 > Read the mod author's instructions.
 >
 > Mélange can provide infrastructure, but it cannot make an incorrectly installed or incompatible mod work automatically.
+
+
+To preserve any mod (or Profiles) you added yourself, you must remember to use:
+
+[NoDelete] Mod Name
+
+For mods that you install yourself, prefix the **actual installed mod name in Mod Organizer 2** with `[NoDelete]`.
+
+For example:
+
+```text
+[NoDelete] My Gameplay Mod
+[NoDelete] UI Tweaks
+[NoDelete] Personal ReShade Preset
+```
+
+This makes the convention consistent on both sides: **personal profiles and personal mods** get `[NoDelete]`, while official Mélange-managed content does not.
 
 ---
 
@@ -450,7 +483,9 @@ If you do not know what a framework component does, do not disable it merely bec
 
 When multiple mods provide the same virtual file path, the higher-priority file may overwrite the lower-priority version in the environment presented to the game.
 
-This is one of the reasons MO2 is useful: those relationships can be inspected rather than silently merged into the game directory. Use the Data tab!
+This is one of the reasons MO2 is useful: those relationships can be inspected rather than silently merged into the game directory.
+
+When investigating conflicts or unexpected file overrides, MO2's **Data** tab can help you inspect the resulting virtual file structure and determine which mod is providing a particular file.
 
 ## A Conflict Is Not Automatically a Problem
 

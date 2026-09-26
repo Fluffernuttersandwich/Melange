@@ -1,0 +1,39 @@
+[
+  {
+    "$type": "ModListMetadata, Wabbajack.Lib",
+    "title": "Mélange",
+    "description": "A modular Vanilla+ Wabbajack mod list for Dune: Awakening.",
+    "author": "FinFNS",
+    "maintainers": [
+      "github/Fluffernuttersandwich"
+    ],
+    "game": "duneawakening",
+    "tags": [
+      "vanilla-plus",
+      "modular",
+      "quality-of-life",
+      "dune-awakening"
+    ],
+    "nsfw": false,
+    "image_contains_title": true,
+    "force_down": false,
+    "links": {
+      "$type": "Links, Wabbajack.Lib",
+      "image": "PLACEHOLDER_IMAGE_URL",
+      "readme": "MELANGE_GITHUB_URL",
+      "download": "PLACEHOLDER_WABBAJACK_DOWNLOAD_URL",
+      "machineURL": "Melange",
+      "discordURL": "https://discord.gg/Ay2pVZHE7S"
+    },
+    "download_metadata": {
+      "$type": "DownloadMetadata, Wabbajack.Lib",
+      "Hash": "",
+      "Size": 0,
+      "NumberOfArchives": 0,
+      "SizeOfArchives": 0,
+      "NumberOfInstalledFiles": 0,
+      "SizeOfInstalledFiles": 0
+    },
+    "version": "0.1.0.0"
+  }
+]

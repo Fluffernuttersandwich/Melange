@@ -147,6 +147,9 @@ or:
 
 The convention is most useful when adopted from the beginning.
 
+> **New to customizing Mélange?**  
+> See **[Customizing Mélange](CUSTOMIZING_MELANGE.md)** before adding personal mods or creating custom profiles. It explains how to keep your additions organized before you need to worry about preserving them through an update.
+
 ---
 
 # Protecting User-Added Mods
@@ -357,6 +360,24 @@ If it begins with:
 you know it is something you intentionally preserved outside the normal official Mélange configuration.
 
 ---
+
+### Release-Specific Instructions Take Priority
+
+The standard process in this guide is the baseline for updating Mélange.
+
+However, individual releases may require additional steps because of changes to frameworks, configuration, mod packaging, or the game itself. When a Mélange release includes specific update instructions, **those instructions take precedence over this general guide**.
+
+Do not assume that every Mélange update should be handled identically.
+
+### When Is a Clean Install Necessary?
+
+Do **not** perform a clean installation of Mélange simply because a new version has been released.
+
+Unless the release notes specifically say otherwise, update the existing installation using the normal Mélange update procedure.
+
+A clean installation may occasionally be required when an update makes substantial changes to the modlist's structure, frameworks, or configuration. If that happens, the release notes will say so and provide any additional instructions.
+
+When in doubt, follow the instructions provided with the specific Mélange release.
 
 # Before Running the Update
 

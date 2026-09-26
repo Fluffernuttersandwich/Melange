@@ -162,6 +162,23 @@ This prevents Steam from automatically updating Dune: Awakening in the backgroun
 
 This way, so long as you only Run the game from MO2, you won't have to update the game until you are ready to do so... usually after the Melange Mod List updates to the current game verison.
 
+### Why Delay Game Updates?
+
+Dune: Awakening updates can temporarily break compatibility with mods, UE4SS, WPS Dune components, or other parts of the Mélange framework.
+
+Setting Steam to **Only update this game when I launch it** gives you more control over when an update occurs, but it is **not an absolute update blocker**. Steam may still require an update before allowing the game to launch.
+
+When a Dune: Awakening update becomes available, the safest general order is:
+
+1. **Game Update Announced**
+2. **Framework and Mod Compatibility Checked**
+3. **Required Mod or Framework Updates Released**
+4. **Update Dune: Awakening**
+5. **Update Mélange if necessary**
+6. **Launch and verify the installation**
+
+Do not modify Steam manifests or game files in an attempt to permanently prevent Steam from updating the game. Just disable automatic updates, and only run the game from MO2.
+
 ## When Dune: Awakening Receives an Update
 
 If Steam shows that an update is available, check the current **Mélange release information and support channels before allowing the update whenever practical**.
@@ -339,6 +356,18 @@ This is the copy of Mod Organizer 2 configured specifically for Mélange.
 > Mélange includes its own portable, preconfigured Mod Organizer 2 environment.
 
 When Mod Organizer 2 opens, allow it to finish loading before launching the game.
+
+### Launching Mélange
+
+Mélange should be launched from inside Mod Organizer 2 using:
+
+**Dune: Awakening - Singleplayer (Modded)**
+
+Do **not** use Steam's **Play** button when you intend to play with Mélange.
+
+Steam will still be running and is still required. Mod Organizer 2 is simply responsible for starting Dune: Awakening with the Mélange virtual file system, launch configuration, and modding framework active.
+
+Launching the game normally through Steam bypasses the Mélange launch environment and should be treated as an **unmodded (vanilla) game launch**.
 
 ---
 
@@ -528,9 +557,101 @@ The problem may be a known compatibility issue that requires an updated framewor
 
 This is particularly important while Dune: Awakening modding remains young and the tooling continues to develop.
 
+## Next Steps
+
+Once Mélange is installed and working, you can begin making it your own.
+
+See **[Customizing Mélange](CUSTOMIZING_MELANGE.md)** for guidance on:
+
+- Creating a personal `[NoDelete]` MO2 profile
+- Adding your own mods without modifying the base Mélange setup
+- Protecting user-added mods with the `[NoDelete]` convention
+- Understanding mod conflicts and file overrides
+- Keeping **Mélange** separate from **[NoDelete]My Mélange**
+
+If something is not working correctly after installation, see the **[Mélange Troubleshooting Guide](TROUBLESHOOTING.md)** before making major changes to the installation.
+
 ---
 
 # Troubleshooting
+
+## Getting Help on Discord
+
+Mélange support and community discussion are hosted on the **Smörgåsbord Discord server**: https://discord.gg/Ay2pVZHE7S
+
+### Joining the Server
+
+1. Join the **Smörgåsbord Discord server** using the invite link.
+2. Open the **Welcome** channel.
+3. Read the server rules.
+4. React to the rules post with the **👍 thumbs-up reaction** to acknowledge the rules and gain access to the rest of the server.
+5. Once access is granted, locate the **Mélange** section of the server.
+
+### Before Posting a Question
+
+Check the Mélange channels, pins, and use the Discord Search function for an existing answer before creating a new support request.
+
+Discord's search can be especially useful. Search for:
+
+- The name of the mod causing the problem.
+- A distinctive part of the error message.
+- `UE4SS`
+- `WPS`
+- The Mélange version you are using.
+- Keywords describing the problem, such as `crash`, `launch`, `install`, or `update`.
+
+Someone may already have encountered and solved the same problem.
+
+### Asking for Help
+
+If you cannot find an existing solution, post in the appropriate Mélange support channel and include the information requested in **[Before Asking for Help](#before-asking-for-help)**.
+
+If the problem involves UE4SS, WPS Dune, Lua mods, startup failures, or crashes, you may also be asked to provide your `UE4SS.log`.
+
+## Obtaining Your UE4SS Log
+
+When asking for help with a UE4SS, WPS Dune, or Lua mod problem, you may be asked to provide your `UE4SS.log`.
+
+Where you retrieve the log depends on whether Dune: Awakening is currently running.
+
+### If Dune: Awakening Is Currently Running
+
+While Mélange is running, the active UE4SS files are staged into the Dune: Awakening game directory.
+
+Open:
+
+```text
+<Your Dune: Awakening Folder>\DuneSandbox\Binaries\Win64\ue4ss\
+```
+
+```text
+...\SteamLibrary\steamapps\common\DuneAwakening\DuneSandbox\Binaries\Win64\ue4ss\
+```
+
+```text
+UE4SS.log
+```
+
+### If the Game Is Closed or Has Crashed
+
+After Dune: Awakening exits, Mélange's file-management process cleans the temporary files out of the game directory.
+
+The generated UE4SS.log can instead be retrieved from Mod Organizer 2's Overwrite folder.
+
+In MO2:
+
+Locate Overwrite at the bottom of the left pane.
+Right-click Overwrite.
+Select Open in Explorer.
+Navigate through:
+
+```text
+Root\DuneSandbox\Binaries\Win64\ue4ss\
+```
+
+```text
+UE4SS.log
+```
 
 ## The Base Game Does Not Launch
 
