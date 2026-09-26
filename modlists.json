@@ -20,7 +20,7 @@
     "links": {
       "$type": "Links, Wabbajack.Lib",
       "image": "PLACEHOLDER_IMAGE_URL",
-      "readme": "MELANGE_GITHUB_URL",
+      "readme": "https://github.com/Fluffernuttersandwich/Melange/blob/main/README.md",
       "download": "PLACEHOLDER_WABBAJACK_DOWNLOAD_URL",
       "machineURL": "Melange",
       "discordURL": "https://discord.gg/Ay2pVZHE7S"
