@@ -109,7 +109,7 @@ Your installation does **not** need to use either of these exact paths.
 > [!IMPORTANT]
 > Do not manually copy Mélange files into the Dune: Awakening installation directory.
 >
-> Mélange is designed to manage its modding environment through Mod Organizer 2 wherever practical.
+> Mélange is designed to manage its modding environment through Mod Organizer 2.
 
 ---
 
@@ -235,16 +235,48 @@ Run Wabbajack and allow it to complete any initial setup or update process.
 
 # Step 4 — Download Mélange
 
-Mélange will be distributed as a **Wabbajack mod list**.
+### Melange is not _currently_ available in the Wabbajack Gallery
 
-Download the current Mélange release using the distribution method specified on the Mélange GitHub page and release documentation.
 
-> [!IMPORTANT]
-> Always read the release notes for the version you are installing.
+
+Download the Melange.wabbajack file from the NexusMods page: https://www.nexusmods.com/duneawakening/mods/24?tab=files
+
+1.  Open the **Wabbajack** application by running wabbajack.exe.
+2.  Browse Modlists.
+3.  Install from Disk button
+4.  Select the Melange.wabbajack file you downloaded from NexusMods
+5.  Select and/or create the Installation folder for Melange.
+
+Choose the folder you created in Step 7, like the Examples below:
+
+``` text
+C:\Wabbajack_ModLists\Melange
+or
+D:\Wabbajack_ModLists\Melange
+or
+E:\Melange
+```
+
+Wabbajack will automatically populate a **Download Location** for the original mod
+archives.
+
+Example:
+
+``` text
+C:\Wabbajack_ModLists\Melange\downloads
+or
+D:\Wabbajack_ModLists\Melange\downloads
+or
+E:\Melange\downloads
+```
+
+> [!WARNING]
 >
-> A particular release may contain additional installation instructions, compatibility warnings, or requirements that supersede this general guide.
+> The **Installation Location must not be your
+> Dune: Awakening game directory** and must not be the same folder as
+> another Wabbajack list.
 
-Do not use an older Mélange installer unless you specifically intend to install that version.
+Click **Install** and allow Wabbajack to complete.
 
 ---
 
@@ -283,12 +315,12 @@ Although the project is displayed as **Mélange**, using the ASCII name `Melange
 
 ## Downloads Location
 
-Wabbajack will also require a download location.
+Wabbajack will auto-populate a downloads folder inside the Melange folder you make.
 
 For example:
 
 ```text
-D:\Modlists\Melange Downloads
+D:\Modlists\Melange\downloads
 ```
 
 Do not use the Dune: Awakening game directory as either location.
@@ -328,7 +360,7 @@ Common causes of installation problems can include:
 - Incorrect folder permissions
 - A game installation that Wabbajack cannot locate
 
-If retrying the installation does not resolve the problem, save the relevant Wabbajack log before asking for support.
+If retrying the installation does not resolve the problem, post the relevant Wabbajack log when asking for support at the Smorgasbord Discord Server.
 
 ---
 
