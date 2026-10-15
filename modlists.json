@@ -1,3 +1,4 @@
+
 [
   {
     "$type": "ModListMetadata, Wabbajack.Lib",
@@ -18,19 +19,19 @@
       "$type": "Links, Wabbajack.Lib",
       "image": "https://raw.githubusercontent.com/Fluffernuttersandwich/Melange/main/assets/branding/Melange_Banner_1.png",
       "readme": "https://github.com/Fluffernuttersandwich/Melange/blob/main/README.md",
-      "download": "PLACEHOLDER_WABBAJACK_DOWNLOAD_URL",
+      "download": "https://authored-files.wabbajack.org/Mélange.wabbajack_966cb07b-4ec0-48dd-a9c8-137a05407ecb",
       "machineURL": "Melange",
       "discordURL": "https://discord.gg/Ay2pVZHE7S"
     },
     "download_metadata": {
       "$type": "DownloadMetadata, Wabbajack.Lib",
-      "Hash": "",
-      "Size": 0,
-      "NumberOfArchives": 0,
-      "SizeOfArchives": 0,
-      "NumberOfInstalledFiles": 0,
-      "SizeOfInstalledFiles": 0
+      "Hash": "KvHyjSUEp/g=",
+      "Size": 5244716,
+      "NumberOfArchives": 52,
+      "SizeOfArchives": 498482609,
+      "NumberOfInstalledFiles": 4570,
+      "SizeOfInstalledFiles": 1076890222
     },
-    "version": "1.5.3.7.1"
+    "version": "1.5.3.7"
   }
 ]
