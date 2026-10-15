@@ -7,7 +7,7 @@
     "maintainers": [
       "github/Fluffernuttersandwich"
     ],
-    "game": "duneawakening",
+    "game": "DuneAwakening",
     "tags": [
       "Vanilla+"
     ],
@@ -31,6 +31,6 @@
       "NumberOfInstalledFiles": 0,
       "SizeOfInstalledFiles": 0
     },
-    "version": "0.1.0.0"
+    "version": "1.5.3.7"
   }
 ]
