@@ -292,8 +292,8 @@ Once your paths are configured, begin the Mélange installation in Wabbajack.
 
 1.  Open the **Wabbajack** application by running wabbajack.exe.
 2.  Browse Modlists.
-3.  Install from Disk button
-4.  Select the Melange.wabbajack file you downloaded from NexusMods
+3.  Ensure the Unlisted Mod Lists button is checked, search for Dune: Awakening
+4.  Select the Melange, downland and install it.
 5.  Select and/or create the Installation folder for Melange.
 
 
