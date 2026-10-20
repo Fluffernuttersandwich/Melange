@@ -23,7 +23,12 @@
       "machineURL": "Melange",
       "discordURL": "https://discord.gg/Ay2pVZHE7S",
       "websiteURL": "",
-      "nexusCollection": null
+      "nexusCollection": {
+        "collectionId": "527035",
+        "slug": "qxuhnq",
+        "domainName": "duneawakening",
+        "lastRevisionNumber": 1
+      }
     },
     "download_metadata": {
       "Hash": "KbWspYpDql4=",
