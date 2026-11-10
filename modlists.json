@@ -19,7 +19,7 @@
     "links": {
       "image": "https://raw.githubusercontent.com/Fluffernuttersandwich/Melange/refs/heads/main/assets/branding/Melange_Gallery_1600x900.jpg",
       "readme": "https://github.com/Fluffernuttersandwich/Melange/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/M\u00E9lange.wabbajack_b4e61d88-8026-486a-a636-e4e9358abac6",
+      "download": "https://authored-files.wabbajack.org/M\u00E9lange.wabbajack_774094b3-16a1-4282-9eff-a93d556ab2e3",
       "machineURL": "Melange",
       "discordURL": "https://discord.gg/Ay2pVZHE7S",
       "websiteURL": "",
@@ -31,17 +31,17 @@
       }
     },
     "download_metadata": {
-      "Hash": "hK5Fs49k6bY=",
-      "Size": 5290650,
+      "Hash": "lWgMOjc38F4=",
+      "Size": 5292040,
       "NumberOfArchives": 60,
-      "SizeOfArchives": 501452406,
-      "NumberOfInstalledFiles": 4859,
-      "SizeOfInstalledFiles": 1084262344,
-      "TotalSize": 1585714750
+      "SizeOfArchives": 502192668,
+      "NumberOfInstalledFiles": 4864,
+      "SizeOfInstalledFiles": 1084893243,
+      "TotalSize": 1587085911
     },
-    "version": "1.5.15.4",
+    "version": "1.5.20.1",
     "dateCreated": "1970-01-01T00:00:00Z",
-    "dateUpdated": "2026-11-03T20:20:43.267425Z",
+    "dateUpdated": "2026-11-10T22:23:00.6889053Z",
     "repositoryName": ""
   }
 ]
